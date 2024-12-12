@@ -1,5 +1,6 @@
 # Prédiction de la gravité des accidents routiers en France - analyse de la période 2019-2022
 
+**Outils utilisés** python, scikit-learn, keras, pytorch, streamlit  
 
 ## Contexte et objectifs
 
@@ -22,7 +23,7 @@ et... selon le mode de transport, la météo, le mois de l'année, le type de ro
   <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="150" />
 </p>
 
-**Traitement des données**
+**Traitement des données**  
 Après gestion des valeurs manquantes, doublons, sélection/création de variables, le jeu de données final contient **447136 entrées** et il est composé de 35 variables dont 30 catégorielles (possédant jusqu'à 10 modalités différentes) et 5 variables quantitatives.
 <img src="images/gravite/CarteMentale_ApresPrepro.jpeg?raw=true"/>
 
