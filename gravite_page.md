@@ -12,18 +12,18 @@ Ce projet a été développé par l'équipe suivante, durant notre [formation Da
 ## Tâches réalisées
 **Exploration des données** 
 Des disparités socio-démographiques et territoriales persistantes :
-*👨 Hommes : 77,6% des décès
-*👨‍🎓 18-24 ans : 91 tués par million d'habitants (vs 48 en moyenne)
-*🌎 Outre-mer vs métropole : 91 tués par million d'habitants sur 2019-2023 (vs 46 en métropole)
-et... selon le mode de transport, la météo, le mois de l'année, le type de route etc...
+* 👨 Hommes : 77,6% des décès  
+* 👨‍🎓 18-24 ans : 91 tués par million d'habitants (vs 48 en moyenne)  
+* 🌎 Outre-mer vs métropole : 91 tués par million d'habitants sur 2019-2023 (vs 46 en métropole)  
+et... selon le mode de transport, la météo, le mois de l'année, le type de route etc...  
 <p float="left">
-  <img src="images/Camembert_region.png" width="100" />
-  <img src="images/Deces_Dpt.png" width="100" /> 
-  <img src="images/Mortalite_hommes_femmes_age" width="100" />
+  <img src="images/Camembert_region.png" height="500" />
+  <img src="images/Deces_Dpt.png" height="500" /> 
+  <img src="images/Mortalite_hommes_femmes_age.png" height="500" />
 </p>
 
 **Traitement des données**
-Après traitement (gestion des valeurs manquantes, doublons, sélection/création de variables), le jeu de données final contient **447136 entrées** et il est composé de 35 variables dont 30 catégorielles (possédant jusqu'à 10 modalités différentes) et 5 variables quantitatives.
+Après gestion des valeurs manquantes, doublons, sélection/création de variables, le jeu de données final contient **447136 entrées** et il est composé de 35 variables dont 30 catégorielles (possédant jusqu'à 10 modalités différentes) et 5 variables quantitatives.
 <img src="images/CarteMentale_ApresPrepro.jpeg?raw=true"/>
 
 **Entraînement, évaluation et optimisation de modèles de classification supervisés**  
@@ -34,17 +34,17 @@ Des algorithmes de classification issus de différentes familles ont été analy
 * des apprentissages d’ensemble : CatBoost, XGBoost
 * des modèles de deep learning 
 
-Certains modèles ont nécessité un encodage des variables catégorielles et une standardisation des variables continues.\ 
-Un travail d'optimisation a été fait sur les hyperparamètres de chacun de ces modèles et leurs performances ont alors pu être comparées. \
+Certains modèles ont nécessité un encodage des variables catégorielles et une standardisation des variables continues.  
+Un travail d'optimisation a été fait sur les hyperparamètres de chacun de ces modèles et leurs performances ont alors pu être comparées.  
 
 <img src="images/ComparaisonPerformances.png?raw=true"/>
 
-Le meilleur modèle est celui de type **Random Forest**, avec les paramètres {'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 13, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}, conduisant aux performances suivantes :
-<img src="images/RF_classifreport.jpg?raw=true" width="50"/>
+Le meilleur modèle est celui de type **Random Forest**, avec les paramètres {'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 13, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}, conduisant aux performances suivantes :  
+<img src="images/RF_classifreport.jpg?raw=true" width="500"/>
 
 
 **Interprétabilité des résultats**  
-L'analyse des valeurs de Shap, classées ci-dessous par ordre d'importance pour chaque catégorie d'usagers, permet d'identifier les variables les plus influentes et la façon dont elles influent sur le résultat.
+L'analyse des valeurs de Shap, classées ci-dessous par ordre d'importance pour chaque catégorie d'usagers, permet d'identifier les variables les plus influentes et la façon dont elles influent sur le résultat.  
 <img src="images/SHAP_Rf.jpg?raw=true"/>
 
 ## Conclusion
