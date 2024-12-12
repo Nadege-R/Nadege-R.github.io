@@ -39,5 +39,5 @@ L'analyse des valeurs de Shap, classées ci-dessous par ordre d'importance pour 
 Ainsi, un modèle a été proposé pour prédire l'état de gravité d'une personne accidentée, dont les performances sont jugées honorables. 
 il apparaît par exemple ici que le fait de rouler hors agglomération, de ne pas porter de ceinture de sécurité et d'heurter un obstacle fixe sont des critères qui influencent positivement le fait de décéder dans l'accident. 
 
-Pour retrouver tous les détails de ce projet, rendez-vous sur le  [repo GitHub](https://github.com/Nadege-R/Gravite-des-accidents-routiers) qui vous donnera également la possibilité de visualiser les résultats des modèles, en fonction des variables que vous aurez choisies.
+Pour retrouver tous les détails de ce projet, rendez-vous sur le  [repo GitHub](https://github.com/Nadege-R/Gravite-des-accidents-routiers) qui vous donnera également la possibilité, grâce au streamlit, de visualiser les résultats des modèles, en fonction des variables que vous aurez choisies.
 <img src="images/Modeles_gravite.png?raw=true"/>
