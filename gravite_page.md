@@ -17,9 +17,9 @@ Des disparités socio-démographiques et territoriales persistantes :
 * 🌎 Outre-mer vs métropole : 91 tués par million d'habitants sur 2019-2023 (vs 46 en métropole)  
 et... selon le mode de transport, la météo, le mois de l'année, le type de route etc...  
 <p float="left">
-  <img src="images/gravite/Camembert_region.png" height="500" />
-  <img src="images/gravite/Deces_Dpt.png" height="500" /> 
-  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="500" />
+  <img src="images/gravite/Camembert_region.png" height="200" />
+  <img src="images/gravite/Deces_Dpt.png" height="200" /> 
+  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="200" />
 </p>
 
 **Traitement des données**
@@ -40,7 +40,7 @@ Un travail d'optimisation a été fait sur les hyperparamètres de chacun de ces
 <img src="images/gravite/ComparaisonPerformances.png?raw=true"/>
 
 Le meilleur modèle est celui de type **Random Forest**, avec les paramètres {'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 13, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}, conduisant aux performances suivantes :  
-<img src="images/gravite/RF_classifreport.jpg?raw=true" width="500"/>
+<img src="images/gravite/RF_classifreport.jpg?raw=true" width="200"/>
 
 
 **Interprétabilité des résultats**  

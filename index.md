@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Data science
 
 [Prédiction de la gravité des accidents routiers](/gravite_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
