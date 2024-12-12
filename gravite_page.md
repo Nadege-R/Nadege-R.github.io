@@ -19,7 +19,7 @@ Ce projet a été développé par l'équipe suivante, durant notre [formation Da
 ## Tâches réalisées
 **Traitement, exploration des données**
 Le jeu de données final contient **:blue[447136 entrées]** et il est composé de 35 variables **dont 30 catégorielles** (possédant jusqu'à 10 modalités différentes) et 5 variables quantitatives.
-<img src="images/CarteMentale_ApresPrepro.jpg?raw=true"/>
+<img src="images/CarteMentale_ApresPrepro.jpeg?raw=true"/>
 
 **Entraînement, évaluation et optimisation de modèles de classification supervisés**
 Des algorithmes de classification issus de différentes familles ont été analysés, à savoir :
