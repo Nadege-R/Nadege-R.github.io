@@ -7,19 +7,14 @@ Le projet consiste à analyser des données historiques sur les accidents corpor
 
 Le principal objectif de ce projet sont de **prédire la gravité de l'état d'un usager impliqué dans un accident corporel en France** (indemne, blessé léger, blessé hospitalisé, décès), en fonction de caractéristiques de l'accident, du lieu, de l'usager et du contexte.
 
-Ce projet a été développé par l'équipe suivante, durant notre [formation Data Scientist](https://datascientest.com/en/data-scientist-course) chez [DataScientest](https://datascientest.com/). : 
-
-- Matthieu Claudel ([GitHub](https://github.com/matthieuclaudel) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
-- Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert))
-- Camille Pelat ([GitHub](https://github.com/cpelat) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
-- Nadège Reboul ([GitHub](https://github.com/Nadege-R) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
+Ce projet a été développé par l'équipe suivante, durant notre [formation Data Scientist](https://datascientest.com/en/data-scientist-course) chez [DataScientest](https://datascientest.com/). : Matthieu Claudel ([GitHub](https://github.com/matthieuclaudel) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857)), Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert)), Camille Pelat ([GitHub](https://github.com/cpelat) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a)), Nadège Reboul ([GitHub](https://github.com/Nadege-R) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 ## Tâches réalisées
-**Traitement, exploration des données**
+**Traitement, exploration des données**\ 
 Après traitement (gestion des valeurs manquantes, doublons, sélection/création de variables), le jeu de données final contient **447136 entrées** et il est composé de 35 variables dont 30 catégorielles (possédant jusqu'à 10 modalités différentes) et 5 variables quantitatives.
 <img src="images/CarteMentale_ApresPrepro.jpeg?raw=true"/>
 
-**Entraînement, évaluation et optimisation de modèles de classification supervisés**
+**Entraînement, évaluation et optimisation de modèles de classification supervisés**\ 
 Des algorithmes de classification issus de différentes familles ont été analysés, à savoir :
 * des algorithmes linéaires : régression logistique,
 * des algorithmes de regroupement : machines à vecteurs de support (SVM), K plus proches voisins (KNN)
@@ -32,14 +27,14 @@ Un travail d'optimisation a été fait sur les hyperparamètres de chacun de ces
 
 <img src="images/ComparaisonPerformances.png?raw=true"/>
 
-Le meilleur modèle est celui de type Random Forest, avec les paramètres {'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 13, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}, conduisant aux performances suivantes :
-<img src="images/RF_classifreport.png?raw=true"/>
-<img src="images/rf_confusion_matrix.png?raw=true"/>
+Le meilleur modèle est celui de type **Random Forest**, avec les paramètres {'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 13, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}, conduisant aux performances suivantes :
+<img src="images/RF_classifreport.jpg?raw=true"/>
 
-**Interprétabilité des résultats**
+
+**Interprétabilité des résultats**\ 
 L'analyse des valeurs de Shap, classées ci-dessous par ordre d'importance pour chaque catégorie d'usagers, permet d'identifier les variables les plus influentes et la façon dont elles influent sur le résultat.
 <img src="images/SHAP_Rf.jpg?raw=true"/>
-Ainsi, il apparaît par exemple ici que le fait de rouler hors agglomération, de ne pas porter de ceinture de sécurité et d'heurter un obstacle fixe sont des critères sont des critères qui influencent positivement le fait de décéder dans l'accident. 
+Ainsi, il apparaît par exemple ici que le fait de rouler hors agglomération, de ne pas porter de ceinture de sécurité et d'heurter un obstacle fixe sont des critères qui influencent positivement le fait de décéder dans l'accident. 
 
 Pour retrouver tous les détails de ce projet, rendez-vous sur le  [repo GitHub](https://github.com/Nadege-R/Gravite-des-accidents-routiers) qui vous donnera également la possibilité de visualiser les résultats des modèles, en fonction des variables que vous aurez choisies.
 <img src="images/Modeles_gravite.png?raw=true"/>
