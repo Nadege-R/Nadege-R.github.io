@@ -10,16 +10,16 @@ Le principal objectif de ce projet sont de **prédire la gravité de l'état d'u
 Ce projet a été développé par l'équipe suivante, durant notre [formation Data Scientist](https://datascientest.com/en/data-scientist-course) chez [DataScientest](https://datascientest.com/). : Matthieu Claudel ([GitHub](https://github.com/matthieuclaudel) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857)), Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert)), Camille Pelat ([GitHub](https://github.com/cpelat) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a)), Nadège Reboul ([GitHub](https://github.com/Nadege-R) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 ## Actions réalisées
-**Exploration des données** 
-Des disparités socio-démographiques et territoriales persistantes :
+**Exploration des données**  
+Une première analyse de la base de données met en lumière des disparités socio-démographiques et territoriales :
 * 👨 Hommes : 77,6% des décès  
 * 👨‍🎓 18-24 ans : 91 tués par million d'habitants (vs 48 en moyenne)  
 * 🌎 Outre-mer vs métropole : 91 tués par million d'habitants sur 2019-2023 (vs 46 en métropole)  
 et... selon le mode de transport, la météo, le mois de l'année, le type de route etc...  
 <p float="left">
-  <img src="images/gravite/Camembert_region.png" height="50" />
-  <img src="images/gravite/Deces_Dpt.png" height="50" /> 
-  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="50" />
+  <img src="images/gravite/Camembert_region.png" height="150" />
+  <img src="images/gravite/Deces_Dpt.png" height="150" /> 
+  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="150" />
 </p>
 
 **Traitement des données**
