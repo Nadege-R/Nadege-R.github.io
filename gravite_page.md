@@ -17,9 +17,9 @@ Des disparités socio-démographiques et territoriales persistantes :
 * 🌎 Outre-mer vs métropole : 91 tués par million d'habitants sur 2019-2023 (vs 46 en métropole)  
 et... selon le mode de transport, la météo, le mois de l'année, le type de route etc...  
 <p float="left">
-  <img src="images/gravite/Camembert_region.png" height="200" />
-  <img src="images/gravite/Deces_Dpt.png" height="200" /> 
-  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="200" />
+  <img src="images/gravite/Camembert_region.png" height="50" />
+  <img src="images/gravite/Deces_Dpt.png" height="50" /> 
+  <img src="images/gravite/Mortalite_hommes_femmes_age.png" height="50" />
 </p>
 
 **Traitement des données**
