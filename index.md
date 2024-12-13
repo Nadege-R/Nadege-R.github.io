@@ -18,12 +18,15 @@
 ---
 
 ### Activités de recherche
+
 [Renforcement des maçonneries par matériaux composites](/EA_page)
+
 ---
 
-### Activités d'enseignements
+### Activités d'enseignement
 
 [Bases de la géotechnique, DUT, Semestre 3](/G1_page)
+
 ---
 
 
