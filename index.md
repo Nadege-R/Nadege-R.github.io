@@ -9,7 +9,7 @@
 
 ---
 [Analyse de données d'émission acoustique pour la détection de défauts évolutifs dans des matériaux ou structures de génie civil](/EA_page)
-<img src="images/ProjetEA_Image?raw=true"/>
+<img src="images/ProjetEA_Image.png?raw=true"/>
 
 ---
 
