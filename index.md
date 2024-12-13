@@ -8,6 +8,9 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+[Analyse de données d'émission acoustique pour la détection de défauts évolutifs dans des matériaux ou structures de génie civil](/gravite_page)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
