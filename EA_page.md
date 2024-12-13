@@ -8,7 +8,7 @@ Les émissions acoustiques sont générées par divers défauts - fissuration, r
 
 Le présent projet consiste à utiliser cette méthode pour suivre l'endommagement d'un composite, constitué d'une matrice cimentaire et d'un renfort textile (ici, en carbone). Ce type de composite est utilisé pour le renforcement ou la réparation des maçonneries, afin de prolonger la durée de vie ou augmenter la capacité portante de ces structures.  
 
-## Communication et publications sur ces travaux
+## Communication et publication sur ces travaux
 Ces travaux ont fait l'objet d'une [communication](/pdf/RUGC2021-ReboulSaidiGabor.pdf) lors des Rencontres Universitaires de Génie Civil (RUGC, 2021), et d'une [publication](https://doi.org/10.1016/j.conbuildmat.2021.125216) dans le journal *Construction and Building Materials*.
 
 
