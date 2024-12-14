@@ -5,7 +5,7 @@
 ### Data science
 
 [Prédiction de la gravité des accidents routiers](/gravite_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Leonardo_Gravite.jpg?raw=true"/>
 
 ---
 [Analyse de données d'émission acoustique pour la détection de défauts évolutifs dans des matériaux ou structures de génie civil](/EA_page)
