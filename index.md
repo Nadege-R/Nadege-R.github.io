@@ -19,9 +19,15 @@
 
 ### Activités de recherche
 
-[Renforcement des maçonneries par matériaux composites](/EA_page)
+[Transport de particules dans les milieux granulaires, application à l'érosion interne](/these_page)  
 
 ---
+
+[Renforcement des maçonneries par matériaux composites](/maconnerie_page)
+
+---
+
+[Comportement d'éléments de structure multi-matériaux collés](/collage_page)
 
 ### Activités d'enseignement
 
