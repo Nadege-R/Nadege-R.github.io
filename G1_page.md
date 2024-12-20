@@ -23,3 +23,12 @@ Je vous propose ci-dessous d'accéder aux diaporamas des 4 cours magistraux que 
 * [Cours 3](/pdf/G1/Cours3_BasesGeotech_PPN2014.pdf) : Calcul des contraintes verticales totales et effectives dans le cas de nappe statique. Calcul des accroissements de contraintes verticales avec les hypothèses de Boussinesq (milieu semi infini élastique) pour des charges de fondation superficielle et des charges de remblai
 
 * [Cours 4](/pdf/G1/Cours4_BasesGeotech_PPN2014.pdf) : Calcul du tassement de consolidation (tassement final et évolution au cours du temps jusqu'à stabilisation). Techniques de réduction du temps de tassement.
+
+## Flash cards  
+J’ai travaillé à la création de [cartes](/pdf/G1/FlashCard-Geotechnique.pdf) en lien avec ces enseignements. J’ai d’abord sélectionné les concepts clés de cet enseignement et à chaque concept est associée une carte avec une définition et un dessin, directement lié au concept traité mais avec une représentation « type bande dessinée ». Vous pouvez apercevoir ci-dessous la carte proposée pour la notion de contrainte de préconsolidation, essentielle dans le calcul des tassements des sols.    
+<p align="center">
+  <img src="images/FlashCard_Consolidation.jpg" width="100%" />
+</p>
+
+Les objectifs de ces cartes sont divers : surprendre les étudiants pour les intéresser, offrir à ceux qui ont une mémoire photographique une autre représentation possible des notions abordées.  
+J’ai également utilisé ces cartes pour les séances de réactivation en début de TD, pour réviser les notions du cours nécessaires aux TD et permettre aux étudiants de faire la transition entre le TD précédent et le mien. J’ai mis en place un jeu type « Time’s Up », sur un temps d’environ 10 minutes en utilisant ces cartes. Cela permet de créer une dynamique collective très intéressante au début des séances et le travail de réactivation des notions fonctionne.
