@@ -2,7 +2,7 @@
 Travaux réalisés au Laboratoire de Tribologie et Dynamique des Systèmes (LTDS).
 
 **Outils numériques utilisés** PFC3D, C++, CGAL, Matlab  
-**Laboratoire d'affectation pour cette étude** LTDS (Laboratoire de Tribologie et Dynamique des Systèmes, Ecole Centrale de Lyon)
+**Laboratoire d'affectation pour cette étude** LTDS (Laboratoire de Tribologie et Dynamique des Systèmes, Ecole Centrale de Lyon), thèse effectuée sous la direction de Bernard Cambou et Eric Vincens
 
 ## Résumé de mes travaux de thèse
 Le terme *érosion interne* désigne les phénomènes d’arrachement et de transport de particules, sous l’effet de forces d’écoulement, au sein d’un matériau granulaire. Il s’agit de l’un des modes de rupture des digues et barrages en remblai les plus répandus. Localiser et quantifier les déplacements de matière au sein des matériaux granulaires apparaît donc crucial si l’on veut garantir la pérennité des ouvrages hydrauliques. 

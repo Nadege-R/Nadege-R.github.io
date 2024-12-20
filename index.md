@@ -5,8 +5,9 @@
 ### Data science
 
 [Prédiction de la gravité des accidents routiers](/gravite_page)
-<img src="images/Leonardo_Gravite.jpg?raw=true"/>
-
+<p align="center">
+    <img src="images/Leonardo_Gravite.jpg?raw=true" width="50%" />
+</p>
 ---
 [Les chiffres clés de votre marathon pour tous des JO de Paris](/marathon_page)
 
@@ -35,8 +36,9 @@
 ### Activités d'enseignement
 
 [Bases de la géotechnique, DUT, Semestre 3](/G1_page)
-<img src="images/FlashCard1.png?raw=true"/>
-
+<p align="center">
+    <img src="images/FlashCard1.png?raw=true"/>
+</p>
 ---
 
 
