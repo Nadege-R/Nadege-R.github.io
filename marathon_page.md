@@ -3,11 +3,12 @@
 **Outils utilisés** Python, BeautifulSoup, Gradio
 
 ## Contexte et objectifs
-Le samedi 10 août 2024, à 21 heures, des personnes du grand public ont eu la chance de courir sur les traces des athlètes olympiques. Sélectionnées par tirage au sort, elles ont pu parcourir les 42,195 kilomètres du marathon des Jeux Olympiques, atypique par son tracé et son ambiance. Le tracé de ce marathon est chargé d’histoire puisqu’il s’inspire de la Marche des Femmes d’octobre 1789, et se termine donc au château de Versailles, endroit où se sont arrêtées les manifestantes en 1789. Il est également atypique par son profil, puisqu'il accuse un dénivelé positif de 436 mètres, en autant en négatif. Le président du comité d’organisation Tony Estanguet lors de l’annonce du parcours a commenté : « On a voulu casser les codes mais les athlètes nous ont dit : “vous allez surtout nous casser les pattes” ». 
-<p float="left">
-  <img src="images/marathon_pour_tous/parcours.jpg" height="150" />
-  <img src="images/marathon_pour_tous/profil.jpg" height="150" /> 
+Le samedi 10 août 2024, à 21 heures, des personnes du grand public ont eu la chance de courir sur les traces des athlètes olympiques. Sélectionnées par tirage au sort, elles ont pu parcourir les 42,195 kilomètres du marathon des Jeux Olympiques, atypique par son tracé et son ambiance. Le tracé de ce marathon est chargé d’histoire puisqu’il s’inspire de la Marche des Femmes d’octobre 1789, et se termine donc au château de Versailles, endroit où se sont arrêtées les manifestantes en 1789. Il est également atypique par son profil, puisqu'il accuse un dénivelé positif de 436 mètres, en autant en négatif. Le président du comité d’organisation Tony Estanguet lors de l’annonce du parcours a commenté : « On a voulu casser les codes mais les athlètes nous ont dit : “vous allez surtout nous casser les pattes” ».  
+<p align="center">
+  <img src="images/marathon_pour_tous/parcours.jpg" height="200" />
+  <img src="images/marathon_pour_tous/profil.jpg" height="200" /> 
 </p>
+
 
 L'objectif de ce projet est de récupérer les données recueillies par les puces électroniques que portaient les participants sur le site officiel du marathon, et  de leur fournir un récapitulatif de leurs résultats (classement, temps intermédiaires) à partir de leur numéro de dossard.
 
@@ -25,14 +26,12 @@ L'interface est conçue en 3 onglets :
 * un onglet où ils ont quelques informations statistiques générales sur la course. 
 
 ## Résultats  
-16982 coureurs sont finishers de cette course, soit 87,4\% des partants.  
-51\% des coureurs ont mis moins de 4h30.   
+16982 coureurs sont finishers de cette course, soit 87,4% des partants.  
+51% des coureurs ont mis moins de 4h30.   
 Chaque participant a accès aux informations le concernant :  
-<p float="left">
-  <img src="images/marathon_pour_tous/gradio1.png" height="150" />
-  <img src="images/marathon_pour_tous/gradio2.png" height="150" /> 
-  <img src="images/marathon_pour_tous/gradio3.png" height="150" /> 
+<p align="center">
+  <img src="images/marathon_pour_tous/gradio1.png" width="100%" />
+  <img src="images/marathon_pour_tous/gradio2.png" width="100%" /> 
+  <img src="images/marathon_pour_tous/gradio3.png" width="100%" /> 
 </p>
-
-
 
