@@ -35,6 +35,7 @@
 ### Activités d'enseignement
 
 [Bases de la géotechnique, DUT, Semestre 3](/G1_page)
+<img src="images/FlashCard1.png?raw=true"/>
 
 ---
 
