@@ -1,4 +1,6 @@
-# Recours aux fibres naturelles
+# Recours aux fibres naturelles  
+
+**Laboratoire d'affectation pour cette étude** LMC2 (Laboratoire des Matériaux Composites pour la Construction, Université Claude Bernard Lyon 1)
 
 ## Composites à matrice polymère et à fibres de lin
 

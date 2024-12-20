@@ -20,13 +20,13 @@ Les données ont été récupérées par **web scraping** à l'aide de la librai
 Des statistiques sont réalisées sur les arrivants (finishers). Des boîtes à moustaches sont tracées pour visualiser la distribution des temps mis pour parcourir les distances successives de 5 kilomètres. 
 
 **Création d'une interface avec gradio**  
-L'interface est conçue en 3 onglets :  
+L'interface est conçue en 3 onglets :
 * un onglet où le participant peut, à partir de son numéro de dossard, accéder à son rang, ainsi qu'aux temps intermédiaires qui ont été enregistrés par sa puce,  
 * un onglet où ils peuvent se positionner par rapport aux autres coureurs sur toutes les sections de 5 km,  
 * un onglet où ils ont quelques informations statistiques générales sur la course. 
 
 ## Résultats  
-16982 coureurs sont finishers de cette course, soit 87,4% des partants.  
+16982 coureurs sont finishers de cette course, soit 87,4% des partants.   
 51% des coureurs ont mis moins de 4h30.   
 Chaque participant a accès aux informations le concernant :  
 <p align="center">

@@ -1,6 +1,7 @@
 # Analyse de données d'émission acoustique pour la détection de défauts évolutifs dans des matériaux ou structures de génie civil
 
 **Outils utilisés** Matlab, R  
+**Laboratoire d'affectation pour cette étude** LMC2 (Laboratoire des Matériaux Composites pour la Construction, Université Claude Bernard Lyon 1) 
 
 ## Contexte et objectifs
 Lorsqu'un matériau est soumis à une contrainte (thermique, mécanique...), un défaut interne peut se développer. Il va alors libérer de l’énergie sous forme d’ondes élastiques transitoires, aussi appelées **émissions acoustiques**. Ces ondes (ou signaux) sont détectées par des capteurs piézoélectriques placés à la surface du matériau. Les capteurs les transforment en signaux électriques, qui peuvent ensuite être amplifiés.
@@ -15,7 +16,7 @@ Décomposition modale empirique de chaque signal, extraction de la composante de
 **Analyse en Composantes Principales et clustering par l'algorithme des K-means**  
 Une ACP permet de projeter les variables dans un espace où la séparation par clustering sera facilitée. L'algorithme des K-moyennes est utilisé pour cette segmentation et les indicateurs Silhouette et de Davies et Bouldin sont calculés pour déterminer le nombre de clusters (K)optimal.  
 **Interprétation des clusters obtenus**  
-Les clusters sont reliés aux mécanismes d'endommagement connus des composites à matrice cimentaire, à savoir la fissuration de la matrice, la dégradation de l'interface entre les fibres et la matrice, et la rupture de fibres textiles. 
+Les clusters sont reliés aux mécanismes d'endommagement connus des composites à matrice cimentaire, à savoir la fissuration de la matrice, la dégradation de l'interface entre les fibres et la matrice, et la rupture de fibres textiles.  
 **Lien entre données acoustiques et comportement mécanique du TRC**  
 En étudiant ces dommages, il est possible de relier les données acoustiques au comportement global du matériau. Par exemple, la dégradation entre les fibres et la matrice influe sur la capacité du matériau à transférer les efforts mécaniques, ce qui provoque l'ouverture des fissures. Grâce à certaines variables extraites des signaux (notamment l'amplitude), on peut même estimer cette ouverture.
 

@@ -1,6 +1,7 @@
 # Renforcement des maçonneries par matériaux composites
 
-**Outils numériques utilisés** Ansys, Cast3M, Matlab
+**Outils numériques utilisés** Ansys, Cast3M, Matlab  
+**Laboratoire d'affectation pour cette étude** LMC2 (Laboratoire des Matériaux Composites pour la Construction, Université Claude Bernard Lyon 1)
 
 ## Murs maçonnés renforcés sollicités dans leur plan  
 Dans ses travaux de thèse, **Loan Bui** mène une approche numérico-expérimentale pour approfondir la connaissance relative au comportement de murs maçonnés, principalement ceux renforcés par matériaux composites vis-à-vis de **sollicitations dans leur plan**. Ces travaux s'inscrivent dans le cadre de la réhabilitation du patrimoine bâti vis-à-vis du risque sismique notamment du fait de la reconsidération du zonage en France rendu depuis peu plus exigeant.  
